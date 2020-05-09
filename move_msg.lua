@@ -1,8 +1,9 @@
 -- script: lua
 -- title: moving hello world
+-- author: lorenzo
 
 message="Hello, World!"
--- we get the message's length by printing it offscreen
+-- get the message's length by printing it offscreen
 msg_width=print(message, 0, -6)
 
 x = 120-(msg_width//2)
