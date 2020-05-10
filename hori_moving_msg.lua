@@ -1,6 +1,7 @@
 -- script: lua
 -- title: self scrolling message
 -- author: lorenzo
+-- input: keyboard
 
 message="Hello, World!"
 -- get the message's length by printing it offscreen
